@@ -12,6 +12,7 @@ const Feed = () => {
     const dispatch= useDispatch();
     const {user}= useSelector((state)=>{return state.user});
 
+    // this is get all teets method
     getAllTweet(user?._id);
     const {allTweets,isActive}= useSelector((state)=>{return state.tweet});
     console.log(allTweets,isActive);
