@@ -1,5 +1,5 @@
-const USER_API_END_POINT= "http://localhost:5000/api/user";
-const TWEET_API_END_POINT= "http://localhost:5000/api/tweet";
+const USER_API_END_POINT= "https://twiter-clone786.netlify.app/api/user";
+const TWEET_API_END_POINT= "https://twiter-clone786.netlify.app/api/tweet";
 
 export {
     USER_API_END_POINT,
